@@ -32,7 +32,7 @@ public class Book{
 
     public void applyDiscount(double discount){
 
-         if (discount < 0 || discount > 100.00){
+         if (discount <= 0.00 || discount >= 100.00){
              System.out.println("Error !!");
              return;
          }
